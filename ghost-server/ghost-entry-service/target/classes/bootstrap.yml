@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ghost-accounts-service
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/fuckingSota
+
+
+

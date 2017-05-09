@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dada_blue</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/dada_yellow</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <item name="textAppearanceLargePopupMenu">@style/MyTextAppearance</item>
+    </style>
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:popupBackground">@color/white</item>
+    </style>
+    <style name="MyTextAppearance">
+        <item name="android:textColor">@color/dada_blue</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="popuwindow_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/popu_show_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/popu_hiden_from_top</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ghost-account-service/ghost-account-service.iml" filepath="$PROJECT_DIR$/ghost-account-service/ghost-account-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ghost-entry-service/ghost-entry-service.iml" filepath="$PROJECT_DIR$/ghost-entry-service/ghost-entry-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ghost-record-application/ghost-record-application.iml" filepath="$PROJECT_DIR$/ghost-record-application/ghost-record-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ghost-restaurant-service/ghost-restaurant-service.iml" filepath="$PROJECT_DIR$/ghost-restaurant-service/ghost-restaurant-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ghost-server.iml" filepath="$PROJECT_DIR$/ghost-server.iml" />
+    </modules>
+  </component>
+</project>
